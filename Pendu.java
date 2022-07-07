@@ -12,7 +12,7 @@ public class Pendu {
 		char[]tab2;
 		char[]tab3 = new char[9];
 
-		int i; //variable de boucle coucou
+		int i; //variable de boucle coucou... ahhh que coucou
 		int cpt=8;
 		int cpt2=0;
 
