@@ -8,19 +8,19 @@ public class Pendu {
 
 	public static void main(String[] args) {
 
-		String tabMots[]= {"planeur","accident","encoder","vodka","biere","vin","explorer","ailes","ecran","participant","apocalypse","baccalaureat","montgolfiere","qualification","printemps","horoscope","accordeon","ascenseur","pomme","poire","mandarine","abricot","billet","bouche","boucle","bronze","corbeau","cortege","crapaud","voiture","abruti","ordinateur","bouteille","verre","sandwich","hamburger","essence","roue","clavier","pantalon","chaussure","helicoptere","camera","television","parachute","formation","cheval","canari","chien"}; // tableau de mot ‡ trouver
+		String tabMots[]= {"planeur","accident","encoder","vodka","biere","vin","explorer","ailes","ecran","participant","apocalypse","baccalaureat","montgolfiere","qualification","printemps","horoscope","accordeon","ascenseur","pomme","poire","mandarine","abricot","billet","bouche","boucle","bronze","corbeau","cortege","crapaud","voiture","abruti","ordinateur","bouteille","verre","sandwich","hamburger","essence","roue","clavier","pantalon","chaussure","helicoptere","camera","television","parachute","formation","cheval","canari","chien"}; // tableau de mot √† trouver
 		char[]tab2;
 		char[]tab3 = new char[9];
 
-		int i; //variable de boucle
+		int i; //variable de boucle coucou
 		int cpt=8;
 		int cpt2=0;
 
 		Random r=new Random(); //pour utiliser nbalea
 		int nbalea; //determine nb entre 0 et lg mot
-		String Mdeviner; //insert mot ‡ deviner tirer au hasard
-		int LongMdeviner; //on stock la lg du mot ‡ deviner
-		char tabMdeviner[]; //on crÈe un tableau de la lg du mot ‡ deviner 
+		String Mdeviner; //insert mot √† deviner tirer au hasard
+		int LongMdeviner; //on stock la lg du mot √† deviner
+		char tabMdeviner[]; //on cr√©e un tableau de la lg du mot √† deviner 
 
 		char lettre; //tab pour la saisie de la lettre
 
@@ -73,7 +73,7 @@ public class Pendu {
 					if (lettre==tabMdeviner[i]) {
 						identique=true;
 						if(tab2[i]==tabMdeviner[i]) {
-							System.out.println("Lettre correcte dÈj‡ encodÈe");
+							System.out.println("Lettre correcte d√©j√† encod√©e");
 							i=tabM.length;
 						}
 						else
@@ -96,7 +96,7 @@ public class Pendu {
 					System.out.println("Il vous reste "+cpt+" erreurs possible");
 					System.out.println();
 					tab3[cpt2]=lettre;
-					System.out.println("vous avez dÈj‡ rentrÈ les lettres : ");
+					System.out.println("vous avez d√©j√† rentr√© les lettres : ");
 
 					for (int cpt22=0;cpt22<tab3.length;cpt22++) {
 
@@ -119,14 +119,14 @@ public class Pendu {
 				affiche(nbErreur);
 				System.out.println("vous avez perdu");
 				System.out.println();
-				System.out.println("le mot ‡ trouver Ètait : "+Mdeviner);
+				System.out.println("le mot √† trouver √©tait : "+Mdeviner);
 				System.out.println();
 				System.out.println("Voulez-vous rejouer ? True/false ");
 
 			}
 			if (nblettrecorrect==tabMdeviner.length) {
 				System.out.println();
-				System.out.println("FÈlicitation, vous avez trouvÈ le mot aprËs "+(nbErreur+nblettrecorrect)+" tentatives");
+				System.out.println("F√©licitation, vous avez trouv√© le mot apr√®s "+(nbErreur+nblettrecorrect)+" tentatives");
 				System.out.println();
 				System.out.println("Voulez-vous rejouer ? True/false ");
 			}
@@ -134,7 +134,7 @@ public class Pendu {
 			recommencer=saisieBoolean();
 			if (recommencer==false) {
 				System.out.println();
-				System.out.println("Merci d'avoir jouer, ‡ bientÙt");
+				System.out.println("Merci d'avoir jouer, √† bient√¥t");
 			}
 		}
 		while (recommencer==true);
@@ -177,7 +177,7 @@ public class Pendu {
 			System.out.println();
 			System.out.println("__________________");
 			System.out.println("|          |");
-			System.out.println("|        (∞ ∞)");
+			System.out.println("|        (¬∞ ¬∞)");
 			System.out.println("|");
 			System.out.println("|");
 			System.out.println("|");
@@ -191,7 +191,7 @@ public class Pendu {
 			System.out.println();
 			System.out.println("__________________");
 			System.out.println("|          |");
-			System.out.println("|        (∞ ∞)");
+			System.out.println("|        (¬∞ ¬∞)");
 			System.out.println("|         | |");
 			System.out.println("|         | |");
 			System.out.println("|");
@@ -205,7 +205,7 @@ public class Pendu {
 			System.out.println();
 			System.out.println("__________________");
 			System.out.println("|          |");
-			System.out.println("|        (∞ ∞)");
+			System.out.println("|        (¬∞ ¬∞)");
 			System.out.println("|        /| |");
 			System.out.println("|         | |");
 			System.out.println("|");
@@ -218,7 +218,7 @@ public class Pendu {
 			System.out.println();
 			System.out.println("__________________");
 			System.out.println("|          |");
-			System.out.println("|        (∞ ∞)");
+			System.out.println("|        (¬∞ ¬∞)");
 			System.out.println("|        /| |\\");
 			System.out.println("|         | |");
 			System.out.println("|");
@@ -231,7 +231,7 @@ public class Pendu {
 			System.out.println();
 			System.out.println("__________________");
 			System.out.println("|          |");
-			System.out.println("|        (∞ ∞)");
+			System.out.println("|        (¬∞ ¬∞)");
 			System.out.println("|        /| |\\");
 			System.out.println("|         | |");
 			System.out.println("|         / ");
@@ -266,8 +266,8 @@ public class Pendu {
 				System.out.println("Entrez une lettre");
 				lettre=(new Scanner(System.in)).nextLine().toLowerCase().charAt(0);
 			}
-			catch (java.lang.StringIndexOutOfBoundsException e) {  // si String vide dÈbordement de tableau
-				System.out.println("on vous a demandÈ au moins un lettre");
+			catch (java.lang.StringIndexOutOfBoundsException e) {  // si String vide d√©bordement de tableau
+				System.out.println("on vous a demand√© au moins un lettre");
 				ok=false;
 
 			}
@@ -289,7 +289,7 @@ public class Pendu {
 				recommencer=(new Scanner(System.in)).nextBoolean();
 			}
 			catch(InputMismatchException e) { 
-				System.out.println("On vous a demandÈ true ou false !!");
+				System.out.println("On vous a demand√© true ou false !!");
 				ok=false;
 
 			}
