@@ -8,7 +8,7 @@ public class Pendu {
 
 	public static void main(String[] args) {
 
-		String tabMots[]= {"planeur","accident","encoder","vodka","biere","vin","explorer","ailes","ecran","participant","apocalypse","baccalaureat","montgolfiere","qualification","printemps","horoscope","accordeon","ascenseur","pomme","poire","mandarine","abricot","billet","bouche","boucle","bronze","corbeau","cortege","crapaud","voiture","abruti","ordinateur","bouteille","verre","sandwich","hamburger","essence","roue","clavier","pantalon","chaussure","helicoptere","camera","television","parachute","formation","cheval","canari","chien"}; // tableau de mot à trouver
+		String tabMots[]= {"programmation","animal","planeur","accident","encoder","vodka","biere","vin","explorer","ailes","ecran","participant","apocalypse","baccalaureat","montgolfiere","qualification","printemps","horoscope","accordeon","ascenseur","pomme","poire","mandarine","abricot","billet","bouche","boucle","bronze","corbeau","cortege","crapaud","voiture","abruti","ordinateur","bouteille","verre","sandwich","hamburger","essence","roue","clavier","pantalon","chaussure","helicoptere","camera","television","parachute","formation","cheval","canari","chien"}; // tableau de mot à trouver
 		char[]tab2;
 		char[]tab3 = new char[9];
 
