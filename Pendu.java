@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Pendu { ////////////////////////////////////////////un superbe commentaire /////////////////////////////////////////////////
+public class Pendu { //////n superbe commentaire /////////////////////////////////////////////////
 
 	public static void main(String[] args) {
 
